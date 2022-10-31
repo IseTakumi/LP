@@ -429,35 +429,8 @@ ul {
     right: 0;       
     top: 0;
     bottom: 0;
-
-    background: linear-gradient(124deg, #ff917f, #f38d8d, #f3da8d, #f0f38d, #8df39f,#8dedf3, #948df3,#ed7ff8, #ed7ff8);
-    background-size: 1800% 1800%;
-    
-    -webkit-animation: rainbow 18s ease infinite;
-    -z-animation: rainbow 18s ease infinite;
-    -o-animation: rainbow 18s ease infinite;
-    animation: rainbow 18s ease infinite;}
-    
-@-webkit-keyframes rainbow {
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
-    @-moz-keyframes rainbow {
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
-    @-o-keyframes rainbow {
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
-    @keyframes rainbow { 
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
+    background-color:#8dedf3;
+}
     
 #seventh_first_container {
     display:flex;
@@ -481,11 +454,11 @@ ul {
 }
 
 #seventh_first_second_container {
-    background-color:#A2D9D5;
+    background-color:#f3aa8d;
     border-radius:5%;
     width:28vw;
     height:17vw;
-    filter:drop-shadow(0 0 10px #A2D9D5);
+    filter:drop-shadow(0 0 10px #f3aa8d);
     margin-left:1.6vw;
     margin-top:40px;
 }
@@ -972,34 +945,7 @@ ul {
         right: 0;       
         top: 0;
         bottom: 0;
-
-        background: linear-gradient(124deg, #ff917f, #f38d8d, #f3da8d, #f0f38d, #8df39f,#8dedf3, #948df3,#ed7ff8, #ed7ff8);
-        background-size: 1800% 1800%;
-        
-        -webkit-animation: rainbow 18s ease infinite;
-        -z-animation: rainbow 18s ease infinite;
-        -o-animation: rainbow 18s ease infinite;
-        animation: rainbow 18s ease infinite;}
-        
-    @-webkit-keyframes rainbow {
-            0%{background-position:0% 82%}
-            50%{background-position:100% 19%}
-            100%{background-position:0% 82%}
-        }
-        @-moz-keyframes rainbow {
-            0%{background-position:0% 82%}
-            50%{background-position:100% 19%}
-            100%{background-position:0% 82%}
-        }
-        @-o-keyframes rainbow {
-            0%{background-position:0% 82%}
-            50%{background-position:100% 19%}
-            100%{background-position:0% 82%}
-        }
-        @keyframes rainbow { 
-            0%{background-position:0% 82%}
-            50%{background-position:100% 19%}
-            100%{background-position:0% 82%}
+        background-color:#8dedf3;
         }
         
     #seventh_first_container {
@@ -1024,11 +970,11 @@ ul {
     }
 
     #seventh_first_second_container {
-        background-color:#A2D9D5;
+        background-color:#f3aa8d;
         border-radius:5%;
         width:28vw;
         height:17vw;
-        filter:drop-shadow(0 0 10px #A2D9D5);
+        filter:drop-shadow(0 0 10px #f3aa8d);
         margin-left:1.6vw;
         margin-top:40px;
     }
@@ -1578,36 +1524,9 @@ ul {
         right: 0;       
         top: 0;
         bottom: 0;
+        background-color:#8dedf3;
+    }
 
-        background: linear-gradient(124deg, #ff917f, #f38d8d, #f3da8d, #f0f38d, #8df39f,#8dedf3, #948df3,#ed7ff8, #ed7ff8);
-        background-size: 1800% 1800%;
-        
-        -webkit-animation: rainbow 18s ease infinite;
-        -z-animation: rainbow 18s ease infinite;
-        -o-animation: rainbow 18s ease infinite;
-        animation: rainbow 18s ease infinite;}
-        
-    @-webkit-keyframes rainbow {
-            0%{background-position:0% 82%}
-            50%{background-position:100% 19%}
-            100%{background-position:0% 82%}
-        }
-        @-moz-keyframes rainbow {
-            0%{background-position:0% 82%}
-            50%{background-position:100% 19%}
-            100%{background-position:0% 82%}
-        }
-        @-o-keyframes rainbow {
-            0%{background-position:0% 82%}
-            50%{background-position:100% 19%}
-            100%{background-position:0% 82%}
-        }
-        @keyframes rainbow { 
-            0%{background-position:0% 82%}
-            50%{background-position:100% 19%}
-            100%{background-position:0% 82%}
-        }
-        
     #seventh_first_container {
         display:flex;
         justify-content: center;
@@ -1630,11 +1549,11 @@ ul {
     }
 
     #seventh_first_second_container {
-        background-color:#A2D9D5;
+        background-color:#f3aa8d;
         border-radius:5%;
         width:40%;
         height:160px;
-        filter:drop-shadow(0 0 10px #A2D9D5);
+        filter:drop-shadow(0 0 10px #f3aa8d);
         margin-left:20px;
         margin-top:40px;
     }
