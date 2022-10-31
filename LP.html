@@ -9,22 +9,25 @@
 </head>
 <body>
     <header>
-        <img src="image/WAO_Let_s_Code.png" alt="WAO LET's Codeの写真" width = "334" height="62">
+        <img src="image/WAO_Let_s_Code.png" alt="WAO LET's Codeの写真" width = "270" height="50">
         <div id="headerButton">
-            <button id="rogin" type = "button" onclick="location.href='https:/wao-letscode.com/accounts/login/'" style="cursor:pointer">ログイン</button>
-            <button id="register" type = "button" onclick="location.href='https:/wao-letscode.com/accounts/signup/'" style="cursor:pointer">会員登録</button>
+            <button id="rogin" class="button" type = "button" onclick="location.href='https:/wao-letscode.com/accounts/login/'" style="cursor:pointer">ログイン</button>
+            <button id="register" class="button" type = "button" onclick="location.href='https:/wao-letscode.com/accounts/signup/'" style="cursor:pointer">会員登録</button>
         </div>
     </header>
     <main>
         <div id="top_container">
             <img src="image/Clock0.png" alt="時計" class = "clock">
             <h1 id="boxA">　　秒で始める<br>プログラミング講座</h1>
-            <button class = "imgLet" type = "button" onclick="location.href='https:/wao-letscode.com/'" style="cursor:pointer">今すぐ始めよう</button>
+            <button id = "imgLet" class="button" type = "button" onclick="location.href='https:/wao-letscode.com/'" style="cursor:pointer">今すぐ始める</button>
         </div>
 
-        <div id="second_container">
+        <img src="image/Group 49.png" class="backimg">
+
+        <div id="second_container" class="container">
+            <div class="mask"></div>
             <h2 class="boxB" id="firstbox">WAO Let's Code</h2>
-            <p>WAO Let's CodeはHTML,CSS,JavaScriptを中心としたプログラミング講座です。</p>
+            <p>WAO Let's CodeはHTML, CSS, JavaScriptを中心としたプログラミング講座です。</p>
             <p>WAO Let's Codeを学習することによってプログラミングの発想、考え方を得ることや
                 <br>webページを実際に作ることができます。</p>
             <p>映像での講座の受講によって、好きな時間、好きな場所で勉強することができます。</p>
@@ -32,14 +35,15 @@
                 <br>得ることができます。</p>
         </div>
 
-        <div id="third_container">
+        <div id="third_container" class="container">
+            <div class="mask"></div>
         <h2 class="boxB" id="reason">WAO Let's Codeが選ばれる理由</h2>
-            <h3>細分化されたカリキュラムと膨大な演習量</h3>
-                <p>WAO Let's Codeでは48の単元、 数百の学習項目という細分化されたカリキュラム
+            <h3>細かく分かれたカリキュラムと膨大な演習量</h3>
+                <p>WAO Let's Codeでは48の単元、 約600個の学習項目という細かく分かれたカリキュラム
                     <br>それに対応したドリルという名の演習が膨大に含まれています。
                     <br>これを完璧にすることによってプログラミング能力は格段に向上します。</p>
 
-            <h3>WAO Let's Code受講者のコードと完成品が見れる</h3>
+            <h3>ほかのWAO Let's Code受講者のコードと完成品が見れる</h3>
                 <p>WAO Let's Codeは掲示板という機能があり、受講者であれば誰でも投稿でき、それを見ることができます。
                     <br>たくさんの受講者のコードを見ることができるので、新たな知識や気付きを得られること間違いなし！</p>
 
@@ -48,17 +52,20 @@
                     <br>完全初心者の方でも、気軽に始めやすい講座になっています。</p>
         </div>
 
-        <div id="fourth_container">
-        <h2 class="boxB">学習STEP</h2>
+        <div id="fourth_container" class="container">
+            <div class="mask"></div>
+        <h2 class="boxB" id="secondbox">学習STEP</h2>
+        <div class="fourth_first_container">
             <h3 class="Num">1</h3><h3 class="Str">動画を見る</h3>
-                <p class="boxC">自分が学びたい単元を選び、その中に含まれている、1つ1～5分の動画を見ます。
-                    <br>実際に、動画の中の人がコードを書いているので新しいことでも安心して学ぶことができます。</p>
+                <p class="boxC">自分が学びたい単元を選び、その中に含まれている1～5分の動画を見ます。
+                    <br>実際に、動画のなかの人がコードを書いているので新しいことでも安心して学ぶことができます。</p>
             <h3 class="Num">2</h3><h3 class="Str">コードを書く</h3>
                 <p class="boxC">STEP1の動画で学んだことを実際に自分で書いてみます。
                     <br>コードの内容なども詳しく書いてあるので、コードを理解しながら書くことができます。</p>
             <h3 class="Num">3</h3><h3 class="Str">ドリルで演習をする</h3>
                 <p class="boxC">STEP1,2で学んだことを活かしてドリルで演習を行います。
                     <br>その単元以前の内容も含まれることもあるので効率良くプログラミングを学ぶことができます。</p>
+        </div>
         </div>
 
         <div id="fifth_container">
@@ -71,60 +78,139 @@
                     <p>HTMLにどのように動きをつけるかを指定する</p>
             </div> 
             <div id="fifth_second_container">
-                <img src="image/HTML WAO.png" alt="HTMLのイメージ">
-                <img src="image/CSS WAO.png" alt="CSSのイメージ">
-                <img src="image/JavaScript WAO.png" alt="JavaScriptのイメージ">
+                <img src="image/HTML WAO.png" alt="HTMLのイメージ" class="WAO">
+                <img src="image/CSS WAO.png" alt="CSSのイメージ" class="WAO">
+                <img src="image/JavaScript WAO.png" alt="JavaScriptのイメージ" class="WAO">
             </div>
         </div>
 
-        <div id="six_container">
-        <h2 class="boxB">コース説明</h2>
+        <div id="six_container" class="container">
+            <div class="mask"></div>
+        <h2 class="boxB" id="thirdbox">コース説明</h2>
             <div id="six_first_container">
                 <div id="six_first_first_container">
-                    <h3 class="boxE">体験編</h3>
-                    <p class="boxG">webページ作成の基礎となる
-                    <br>HTML,CSS,JavaScriptを
+                    <h3 class="boxE" id="chap1">体験編</h3>
+                    <p class="boxG" id="ex1">webページ作成の基礎となる
+                    <br>HTML, CSS, JavaScriptを
                     <br>体験することができます。</p>
                 </div>
-                    <img src="image/Let'sCode7.png" alt="体験" width = "640px" height = "240px">
+                    <div id="table1">
+                        <h4 class="boxZ">体験編</h4>
+                        <ul class="table">
+                            <li>1 HTML･CSS･JavaScript体験</li>
+                            <li>2 JavaScript解説</li>
+                        </ul>
+                    </div>
             </div>
             
             <div id="six_second_container">
-                <img src="image/Let'sCode2.png" alt="入門" width = "640px" height = "240px">
+                <div id="table2">
+                    <h4 class="boxZ">入門編</h4>
+                    <ul class="table">
+                        <li>1 HTML入門</li>
+                        <li>2 CSS入門</li>
+                        <li>3 セレクタ入門</li>
+                        <li>4 ボックスモデル</li>
+                        <li>5 ブロックボックスとインラインボックス</li>
+                        <li>6 JavaScript入門</li>
+                        <li>7 HTML要素を操作</li>
+                        <li>8 文字列と数値･算術演算子</li>
+                        <li>9 変数･nullとundefined</li>
+                        <li>10 算術代入演算子･変数とリテラル</li>
+                        <li>11 ビルトインオブジェクト入門1</li>
+                        <li>12 ビルトインオブジェクト入門2</li>
+                        <li>13 関数入門･イベント入門</li>
+                        <li>14 trueとfalse･条件分岐入門</li>
+                        <li>15 くり返し入門</li>
+                        <li>16 setIntrval処理</li>
+                    </ul>
+                </div>
                     <div id="six_second_first_container">
-                        <h3 class="boxF">入門編</h3>
-                        <p class="boxH">HTML,CSS,JavaScriptを中心に
+                        <h3 class="boxF" id="chap2">入門編</h3>
+                        <p class="boxH" id="ex2">HTML, CSS, JavaScriptを中心に
                         <br>プログラミングの基本的な知識
-                        <br>を得ることができます。</p>
+                        <br>が身につきます。</p>
                     </div>
                    
             </div>
             
             <div id="six_third_container">
                 <div id="six_third_first_container">
-                    <h3 class="boxE">速習編</h3>
-                    <p class="boxG">基本編1,2の
-                    <br>大事な部分を凝縮したコースです。
+                    <h3 class="boxE" id="chap3">速習編</h3>
+                    <p class="boxG" id="ex3">基本編1,2の
+                    <br>大事な部分をまとめたコースです。
                     <br>復習に効果的です。</p>
                 </div>
-                    <img src="image/Let'sCode3.png" alt="速習" width = "640px" height = "240px">
+                    <div id="table3">
+                        <h4 class="boxZ">速習編</h4>
+                        <ul class="table">
+                            <li>1 表示、文字列と数値、算術演算子</li>
+                            <li>2 変数と代入演算子など</li>
+                            <li>3 ビルトインオブジェクト</li>
+                            <li>4 trueとfalse、条件分岐</li>
+                            <li>5 くり返し</li>
+                            <li>6 配列</li>
+                            <li>7 くり返し処理の応用</li>
+                        </ul>
+                    </div>
             </div>
             
             <div id="six_fourth_container">
                 <div id="six_fourth_first_container">
-                    <img src="image/Let'sCode4.png" alt="基本1" width = " 640px" height = " 240px">
-                    <img src="image/Let'sCode5.png" alt="基本1" width = "640px" height = "240px">
+                    <div id="table4">
+                        <h4 class="boxZ">基本編1</h4>
+                        <ul class="table">
+                            <li>1 フォームの基本</li>
+                            <li>2 インラインブロック、トランジションなど</li>
+                            <li>3 関数と変数の基本(変数のスコープ)</li>
+                            <li>4 フォーム部品の利用</li>
+                            <li>5 データ型変換、カスタムdata属性など</li>
+                            <li>6 条件分岐の基本</li>
+                            <li>7 くり返しの基本</li>
+                            <li>8 くり返しと条件分岐</li>
+                            <li>9 Math、Dateオブジェクト</li>
+                            <li>10 配列の基本</li>
+                            <li>11 Images･Links･Forms</li>
+                            <li>12 くり返し（合計と平均）</li>
+                            <li>13 DOMの基本</li>
+                            <li>14 イベントの基本</li>
+                            <li>15 タイマー処理の基本</li>
+                            <li>16 配列のメソッド</li>
+                        </ul>
+                    </div>
+                    <div id="table5">
+                        <h4 class="boxZ">基本編2</h4>
+                        <ul class="table">
+                            <li>1 フォーム関連</li>
+                            <li>2 リスト･テーブル</li>
+                            <li>3 セレクタ</li>
+                            <li>4 DOMとNode</li>
+                            <li>5 フォーム関連の操作</li>
+                            <li>6 リスト･テーブルの操作</li>
+                            <li>7 くり返しの利用</li>
+                            <li>8 関数の基本(引数とreturn)</li>
+                            <li>9 論理演算子と条件分岐</li>
+                            <li>10 二重ループと二次元配列</li>
+                            <li>11 ボックスの配置など</li>
+                            <li>12 変形(transform)</li>
+                            <li>13 タイマー処理とフラグ</li>
+                            <li>14 配列の利用</li>
+                            <li>15 往復･反射</li>
+                            <li>16 関数のくり返し処理</li>
+                        </ul>
+                    </div>
                 </div>
                 <div id="six_fourth_second_container">
-                    <h3 class="boxF">基本編1,2</h3>
-                    <p class="boxH">JavaScriptを中心に
+                    <h3 class="boxF" id="chap4">基本編1,2</h3>
+                    <p class="boxH" id="ex4">JavaScriptを中心に
                     <br>基本的な知識だけでなく応用的な知識も
                     <br>得ることができます。</p>
                 </div>
             </div>
         </div>
 
-        <div id="seventh_container">
+        <div id="seventh_container" class="container">
+            <div class="mask"></div>
             <h2 id="boxI">講座料金</h2>
             <div id="seventh_first_container">
                 <div id="seventh_first_first_container">
@@ -139,11 +225,13 @@
             </div>
         </div>
 
-        <h2 id="boxL">5秒で新たな世界へ!
-            <br>WAO Let's Code
-            <br>今すぐ始めよう!</h2>
-        <div class="button">
-            <button  id = "transition" type = "button" onclick="location.href='https:/wao-letscode.com/'" style="cursor:pointer">今すぐ始めよう</button>
+        <div id = "eighth_container">
+            <h2 id="boxL">5秒で新たな世界へ!
+                <br>WAO Let's Code
+                <br>今すぐ始めよう!</h2>
+            <div class="Fin">
+                <button  id = "transition" class="button" type = "button" onclick="location.href='https:/wao-letscode.com/'" style="cursor:pointer">今すぐ始める</button>
+            </div>
         </div>
     </main>
     <footer></footer>
